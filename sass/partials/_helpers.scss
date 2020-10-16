@@ -1,0 +1,10 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wraper {
+    width: 1140px;
+    margin: 0 auto;
+}

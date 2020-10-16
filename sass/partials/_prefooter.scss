@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+#prefooter{
+	max-width: 100%;
+	position: relative;
+	margin-bottom: 38%;
+	margin-top: 10%;
+}
+#prefooter #logo{
+	position: absolute;
+	z-index: 10000;
+	width: 20%;
+	top: 80px;
+	left: 14.3%;
+}
+#contenido-prefooter{
+	position: absolute;
+	z-index: 1000;
+	color: white;
+	width: 50%;
+	top: 80px;
+	left: 45%;
+	
+}
+#contenido-prefooter h2,p{
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0% 2% 0 5%;
+}
+#prefooter img{
+	width: 100%;
+	position: absolute;
+	margin-left: 0%;
+}
