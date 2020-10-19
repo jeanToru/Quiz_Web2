@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
+@import 'global';
 
 #footer{
 	position: relative;
 	background-color: rgb(41, 40, 40);
-	color: white;
+	color: $color;
 	margin: 0 auto;
 	width: 100%;
 	padding-bottom: 3%;
@@ -21,20 +20,19 @@
 }
 #footer ul li a{
     text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    text-transform: $mayusculas;
+    color: $color;
+    font-family: $tipografia;
 }
-#footer img{
+.facebook {
 	position: absolute;
 	top:50%;
 	left: 49%;
-	
 }
 .fondo {
 	margin-top: 1%;
 	text-align: center;
     padding-bottom: 3%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $tipografia;
     font-size: 18px;
 }

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
+@import 'global';
 
 #header {
     width: 960px;
@@ -42,18 +41,18 @@
 }
 
 .list  a {
-    text-transform: uppercase;
+    text-transform: $mayusculas;
     text-decoration: none;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    font-size: $tamaño;
+    font-family: $tipografia;
+    color: $color;
     position: relative;
 }
 
 .nav-link-menu {
     display: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #fff;
+    font-family: $tipografia;
+    font-size: $tamaño;
+    text-transform: $mayusculas;
+    color: $color;
 }

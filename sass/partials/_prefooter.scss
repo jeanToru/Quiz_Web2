@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
+@import 'global';
 
 #prefooter{
 	max-width: 100%;
@@ -17,7 +16,7 @@
 #contenido-prefooter{
 	position: absolute;
 	z-index: 1000;
-	color: white;
+	color: $color;
 	width: 50%;
 	top: 80px;
 	left: 45%;
@@ -25,7 +24,7 @@
 }
 #contenido-prefooter h2,p{
 	text-align: left;
-	font-family: 'Montserrat', sans-serif;
+	font-family: $tipografia;
 	padding: 0% 2% 0 5%;
 }
 #prefooter img{
