@@ -1,0 +1,37 @@
+@media(max-width: 1023px){
+
+	.wrapper.space-tablet{ 
+		> div{
+			padding: 20px 0;
+		}
+	}
+
+    // Menu
+    .list {
+        display: none;
+    }
+
+    .nav-link-menu {
+        text-align: right;
+        margin-top: 20px;
+        display: block;
+    }
+
+    // Imagenes
+    #content img {
+        width: 25%;
+    }
+
+    .imagenes {
+        width: 25%;
+    }
+
+    .imagenes + .imagenes {
+        margin-top: 1%;
+    }
+
+    #content .barco {
+        margin-left: 11%;
+    }
+
+}

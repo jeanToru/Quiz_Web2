@@ -26,6 +26,9 @@
   width: 103px;
   height: 30px; }
 
+.logo {
+  max-width: 30%; }
+
 #nav {
   float: right;
   margin-top: 30px; }
@@ -48,9 +51,14 @@
   color: #fff;
   position: relative; }
 
+.nav-link-menu {
+  display: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #fff; }
+
 .imagen {
-  width: 1140px;
-  height: 546px; }
+  max-width: 100%; }
 
 h3 {
   font-size: 30px;
@@ -131,3 +139,21 @@ h3 {
   padding-bottom: 3%;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px; }
+
+@media (max-width: 1023px) {
+  .wrapper.space-tablet > div {
+    padding: 20px 0; }
+  .list {
+    display: none; }
+  .nav-link-menu {
+    text-align: right;
+    margin-top: 20px;
+    display: block; }
+  #content img {
+    width: 25%; }
+  .imagenes {
+    width: 25%; }
+  .imagenes + .imagenes {
+    margin-top: 1%; }
+  #content .barco {
+    margin-left: 11%; } }

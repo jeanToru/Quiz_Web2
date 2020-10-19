@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 .imagen {
-    width: 1140px;
-    height: 546px;
+    max-width: 100%;
 }
 
 h3 {
@@ -16,6 +15,7 @@ h3 {
 	width: 32%;
 	margin-left: 1%;
 }
+
 #content p {
     display: inline;
 }
