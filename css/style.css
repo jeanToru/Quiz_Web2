@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 .clearfix::after {
   content: "";
   clear: both;
@@ -47,13 +48,13 @@
   text-transform: uppercase;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   position: relative; }
 
 .nav-link-menu {
   display: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   color: #fff; }
@@ -64,7 +65,7 @@
 h3 {
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center; }
 
 #content img {
@@ -90,14 +91,14 @@ h3 {
 #contenido-prefooter {
   position: absolute;
   z-index: 1000;
-  color: white;
+  color: #fff;
   width: 50%;
   top: 80px;
   left: 45%; }
 
 #contenido-prefooter h2, p {
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0% 2% 0 5%; }
 
 #prefooter img {
@@ -108,7 +109,7 @@ h3 {
 #footer {
   position: relative;
   background-color: #292828;
-  color: white;
+  color: #fff;
   margin: 0 auto;
   width: 100%;
   padding-bottom: 3%; }
@@ -126,10 +127,10 @@ h3 {
 #footer ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
-  font-family: 'Montserrat', sans-serif; }
+  color: #fff;
+  font-family: "Montserrat", sans-serif; }
 
-#footer img {
+.facebook {
   position: absolute;
   top: 50%;
   left: 49%; }
@@ -138,7 +139,7 @@ h3 {
   margin-top: 1%;
   text-align: center;
   padding-bottom: 3%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px; }
 
 @media (max-width: 1023px) {
