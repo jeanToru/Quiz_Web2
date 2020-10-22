@@ -1,18 +1,79 @@
 @media(max-width: 767px){
 
+    .nav-link-menu {
+        text-align: right;
+        margin-top: 20px;
+        display: none;
+    }
+
     #content img {
-        width: 20%;
-        margin-left: 2%;
-    }
-
-    .imagenes + .imagenes {
-        margin-top: 1%;
+        width: 100%;
         margin-left: 0%;
-
     }
 
-    #content .barco {
-        margin-left: 18%;
+    .mini {
+        font-family: $parrafo;
+        font-size: 36px;
+        background-color: rgba(0,0,0, 0.7);
+        z-index: 1000;
+        width: 97.6%;
+        height: 60px;
+        text-align: center;
+        color: $color;
+        position: absolute;
+        margin-left: auto;
     }
 
+    .mas {
+        font-family: $tipografia;
+        font-size: 19px;
+        background-color: rgba(0,0,0, 0.7);
+        width: 97.6%;
+        height: 37px;
+        text-align: right;
+        position: absolute;
+        z-index: 1000;
+        color: $color;
+        margin-left: auto;
+    }
+
+    .mas::after {
+        content: '+';
+        color: $color;
+        font-weight: bold;
+        margin-left: 260px;
+        margin-right: 20px;
+    }
+
+    #prefooter #logo {
+        display: none;
+    }
+
+    #contenido-prefooter {
+        position: absolute;
+        width: 100%;
+        top: 30px;
+        left: 2%;
+    }
+
+    #contenido-prefooter h2 {
+        font-size: 2.3vw;
+    }
+
+    #contenido-prefooter p {
+        font-size: 2.3vw;
+    }
+
+    #footer ul{
+        display: none;
+    }
+    .facebook {
+        display: none;
+    }
+    .fondo {
+        font-size: 2.3vw;
+        margin-top: 1%;
+        padding: 5px 25px 5px 25px;
+        text-align: center;
+    }
 }

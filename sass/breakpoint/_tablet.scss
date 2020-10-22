@@ -1,33 +1,134 @@
 @media(max-width: 1023px){
-
-	.wrapper.space-tablet{ 
-		> div{
-			padding: 20px 0;
-		}
-	}
-
     // Menu
     .list {
         display: none;
     }
 
     .nav-link-menu {
-        text-align: right;
+        text-align: center;
         margin-top: 20px;
         display: block;
     }
 
-    // Imagenes
+    .logo {
+        max-width: 50%;
+    }
+
     #content img {
-        width: 25%;
+        width: 48%;
+        margin-left: 1%;
+    }
+        
+    .mini {
+            font-family: $parrafo;
+            font-size: 36px;
+            background-color: rgba(0,0,0, 0.7);
+            z-index: 1000;
+            width: 47%;
+            height: 60px;
+            text-align: center;
+            color: $color;
+            position: absolute;
+        }
+
+        .mas {
+            font-family: $tipografia;
+            font-size: 19px;
+            background-color: rgba(0,0,0, 0.7);
+            width: 47%;
+            height: 37px;
+            text-align: right;
+            position: absolute;
+            z-index: 1000;
+            color: $color;
+        }
+    
+        .mas::after {
+            content: '+';
+            color: $color;
+            font-weight: bold;
+            margin-left: 123px;
+            margin-right: 20px;
+        }
+
+    .mar {
+        margin-top: -103px;
+        margin-left: 11px;
+    }
+    .barco {
+        margin-top: -103px;
+        margin-left: 498px;
     }
 
-    .imagenes + .imagenes {
-        margin-top: 1%;
+    .barquito {
+        margin-left: 498px;
     }
 
-    #content .barco {
-        margin-left: 11%;
+    .primero {
+        margin-top: -66px;
+        margin-left: 11px;
     }
 
+    .segundo {
+        margin-top: -66px;
+        margin-left: 498px;
+    }
+
+    #prefooter {
+        margin-bottom: 38%;
+        margin-top: 10%;
+    }
+
+    #prefooter #logo{
+        top: 80px;
+        left: 14.3%;
+    }
+
+    #contenido-prefooter {
+        width: 50%;
+        top: 80px;
+        left: 45%;
+    }
+
+    .tipografia {
+        text-align: left;
+        padding: 0% 2% 0 5%;
+        font-size: 0.9rem;
+    }
+
+    #prefooter img{
+        width: 100%;
+        position: absolute;
+        margin-left: 0%;
+    }
+
+    #footer ul {
+        padding-bottom: 9%;
+        padding-top: 4%;
+        padding-left: 23%;
+        list-style: none;
+    }
+
+    #footer ul li {
+        float: left;
+        padding-left: 4%;
+
+    }
+    #footer ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .facebook {
+        position: absolute;
+        top:50%;
+        left: 49%;
+        
+    }
+
+    .fondo {
+        margin-top: 2%;
+        text-align: center;
+        padding-bottom: 3%;
+    }
 }
