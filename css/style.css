@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 .clearfix::after {
   content: "";
   clear: both;
@@ -70,10 +75,59 @@ h3 {
 
 #content img {
   width: 32%;
-  margin-left: 1%; }
+  margin-left: 1%;
+  position: relative; }
 
-#content p {
-  display: inline; }
+#sele1 {
+  position: relative; }
+
+/* #content p {
+    display: inline;
+}*/
+.mini {
+  font-family: "Oleo Script", cursive;
+  font-size: 36px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  width: 17.8%;
+  height: 60px;
+  text-align: center;
+  color: #fff;
+  position: absolute; }
+
+.parra {
+  margin-top: -65px;
+  margin-left: 392px; }
+
+.cuba {
+  margin-top: -65px;
+  margin-left: 772px; }
+
+.mar {
+  margin-top: -103px;
+  margin-left: 11px; }
+
+.mas {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 17.8%;
+  height: 37px;
+  text-align: right;
+  position: absolute;
+  z-index: 1000;
+  color: #fff; }
+
+.mas::after {
+  content: '+';
+  color: #fff;
+  font-weight: bold;
+  margin-left: 66px;
+  margin-right: 20px; }
+
+.posi {
+  margin-top: -43px;
+  margin-left: 11px; }
 
 #prefooter {
   max-width: 100%;
@@ -96,7 +150,14 @@ h3 {
   top: 80px;
   left: 45%; }
 
-#contenido-prefooter h2, p {
+h2 {
+  font-size: 40px;
+  margin-top: 2px; }
+
+#contenido-prefooter p {
+  font-size: 18px; }
+
+.tipografia {
   text-align: left;
   font-family: "Montserrat", sans-serif;
   padding: 0% 2% 0 5%; }
